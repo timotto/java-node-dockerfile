@@ -1,10 +1,11 @@
+FROM alpine:3.6
+FROM alpine:3.6
 #
 # NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM alpine:3.6
 
 # A few problems with compiling Java from source:
 #  1. Oracle.  Licensing prevents us from redistributing the official JDK.
@@ -33,7 +34,6 @@ RUN set -x \
 	&& apk add --no-cache \
 		openjdk8="$JAVA_ALPINE_VERSION" \
 	&& [ "$JAVA_HOME" = "$(docker-java-home)" ]
-FROM alpine:3.6
 
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 8.1.3
