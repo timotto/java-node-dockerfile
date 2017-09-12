@@ -1,3 +1,3 @@
 https://github.com/docker-library/openjdk.git 7bd5c28e1ade462bfcc4a49f237023dfd2330b8f
-https://github.com/nodejs/docker-node.git 17c50cb300581280805a4183524fbf57840f3a7e
+https://github.com/nodejs/docker-node.git bc21af55baa5bb9c932f348a540200487e54a207
 https://github.com/timotto/java-node-dockerfile-ci d9994c4de35882eb8942130f69d7eab06ba63e45
